@@ -4,7 +4,8 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const app = express()
-
+const helmet = require("helmet");
+app.use(helmet());
 app.use(cors())
 app.use(bodyParser.json())
 
@@ -12,7 +13,7 @@ let todos = [
   { id: "1", name: "Learn AWS", completed: false },
   { id: "2", name: "Build Fullstack App", completed: false }
 ]
-
+amplify status
 app.get("/todos", (req, res) => {
   res.json(todos)
 })

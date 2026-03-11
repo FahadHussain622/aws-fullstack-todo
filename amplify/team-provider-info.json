@@ -25,7 +25,7 @@
         },
         "todofunction": {
           "deploymentBucketName": "amplify-awsfullstack-dev-88acd-deployment",
-          "s3Key": "amplify-builds/todofunction-4e6d64702f4b72486539-build.zip"
+          "s3Key": "amplify-builds/todofunction-756f61742b694a7a526b-build.zip"
         }
       },
       "api": {
