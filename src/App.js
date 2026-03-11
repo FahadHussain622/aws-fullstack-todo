@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
 
-      <h1>AWS Fullstack Todo App</h1>
+      <h1>My AWS Fullstack Todo App</h1>
 
       <TodoList />
 
