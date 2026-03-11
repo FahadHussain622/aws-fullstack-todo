@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsfullstack-dev-88acd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::134553439827:role/amplify-awsfullstack-dev-88acd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::134553439827:role/amplify-awsfullstack-dev-88acd-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awsfullstack-dev-88acd-deployment",
+      "UnauthRoleName": "amplify-awsfullstack-dev-88acd-unauthRole",
+      "StackName": "amplify-awsfullstack-dev-88acd",
+      "StackId": "arn:aws:cloudformation:us-east-1:134553439827:stack/amplify-awsfullstack-dev-88acd/afacb2c0-1d61-11f1-929c-0affe2c38e39",
+      "AmplifyAppId": "d2gttwm32urg9"
+    },
+    "categories": {
+      "auth": {
+        "awsfullstack1553ff0a": {}
+      },
+      "storage": {
+        "tododb": {}
+      },
+      "function": {
+        "awsfullstack": {
+          "deploymentBucketName": "amplify-awsfullstack-dev-88acd-deployment",
+          "s3Key": "amplify-builds/awsfullstack-68662b31453454464c6d-build.zip"
+        },
+        "todofunction": {
+          "deploymentBucketName": "amplify-awsfullstack-dev-88acd-deployment",
+          "s3Key": "amplify-builds/todofunction-4e6d64702f4b72486539-build.zip"
+        }
+      },
+      "api": {
+        "awsfullstack": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+projects:
+  awsfullstack:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - mutations.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
